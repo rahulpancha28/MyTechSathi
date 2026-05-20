@@ -78,15 +78,16 @@ const Footer = () => {
                     <ul>
                         <li className='mb-2 text-gray-500 flex gap-2'>
                             <IoLocationOutline size={20} />
-                            <span className='text-sm'>E-store market Lucknow, India 256320</span>
+                            <span className='text-sm'>NEHRU PLACE, DEEPALI BUILDING
+2ND FLOOR, OFFICE NO 209, PIN 110019</span>
                         </li>
                         <li className='mb-2 text-gray-500 flex gap-2'>
                             <MdOutlinePhone size={20} />
-                            <Link href="tel:+91-8569874589" className='hover:text-primary text-sm'>+91-8569874589</Link>
+                            <Link href="tel:+91-8178082408" className='hover:text-primary text-sm'>+91-8178082408</Link>
                         </li>
                         <li className='mb-2 text-gray-500 flex gap-2'>
                             <MdOutlineMail size={20} />
-                            <Link href="mailto:support@estore.com" className='hover:text-primary text-sm'>support@estore.com</Link>
+                            <Link href="mailto:rahulpanchal28@gmail.com" className='hover:text-primary text-sm'>rahulpanchal28@gmail.com</Link>
                         </li>
 
                     </ul>
