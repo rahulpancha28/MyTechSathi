@@ -18,6 +18,7 @@ const Home = () => {
         <div>
             <section>
                 <MainSlider />
+            
             </section>
             <section className='lg:px-32 px-4 sm:pt-20 pt-5 pb-10'>
                 <div className='grid grid-cols-2 sm:gap-10 gap-2'>
