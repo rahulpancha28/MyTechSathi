@@ -2,7 +2,7 @@ import { connectDB } from "@/lib/databaseConnection";
 import { catchError, response } from "@/lib/helperFunction";
 import ProductModel from "@/models/Product.model";
 import MediaModel from "@/models/Media.model";
-
+export const dynamic = 'force-dynamic';
 export async function GET() {
     try {
         await connectDB()

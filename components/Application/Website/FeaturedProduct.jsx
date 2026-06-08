@@ -8,7 +8,7 @@ import { USER_DASHBOARD, WEBSITE_HOME, WEBSITE_LOGIN, WEBSITE_REGISTER, WEBSITE_
 const FeaturedProduct = async () => {
     let productData = null
     try {
-        const { data } = await axios.get(`${process.env.NEXT_PUBLIC_API_BASE_URL}/product/get-featured-product`)
+        const { data } = await axios.get(`${process.env.NEXT_PUBLIC_API_BASE_URL}/product/get-featured-product`, { params: { _t: Date.now() } })
         productData = data
     } catch (error) {
         console.log(error)
